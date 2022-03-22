@@ -10,12 +10,6 @@ const theme: DefaultTheme = {
     light: "#fbfcfe",
     lightBlue: "#2e57e8",
   },
-  alerts: {
-    success: "#1DB954",
-    error: "#E60023",
-    info: "#36C5F0",
-    warning: "#ECB22E",
-  },
   spacing: {
     s: 4,
     m: 6,

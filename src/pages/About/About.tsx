@@ -1,7 +1,6 @@
 import * as React from "react";
 import Icon from "components/Icon";
 import { useNavigate } from "react-router";
-import Logo from "../assets/cycode-logo.png";
 import styled from "styled-components";
 import { Title } from "styles/sharedStyle";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";

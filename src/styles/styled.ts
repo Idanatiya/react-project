@@ -7,12 +7,6 @@ export interface Theme {
     light: string;
     lightBlue: string;
   };
-  alerts: {
-    success: string;
-    error: string;
-    info: string;
-    warning: string;
-  };
   spacing: {
     s: number;
     m: number;

@@ -1,9 +1,9 @@
 import * as React from "react";
+import styled from "styled-components";
 import { GlobalStyle } from "styles/GlobalStyle";
 import Routes from "routes/Routes";
 import Provider from "./Provider";
 import Sidebar from "layout/Sidebar";
-import styled from "styled-components";
 
 function App() {
   return (
