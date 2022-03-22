@@ -23,9 +23,7 @@ const GenericModal = ({
   withCloseBtn,
 }: Props) => {
   const modalRef = React.useRef<HTMLDivElement>(null);
-  useOnClickOutside(modalRef, () => {
-    toggleModal();
-  });
+  useOnClickOutside(modalRef, toggleModal);
   if (!isOpen) return null;
   return ReactDOM.createPortal(
     <>
