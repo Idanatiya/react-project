@@ -5,11 +5,10 @@ import styled from "styled-components";
 
 interface Props extends React.ComponentPropsWithRef<"input"> {
   hasIcon?: boolean;
-  isFocused?: boolean;
 }
 
 const GenericInput = React.forwardRef<HTMLInputElement, Props>(
-  ({ hasIcon = true, isFocused = false, ...inputProps }, ref) => {
+  ({ hasIcon = true, ...inputProps }, ref) => {
     return (
       <Container>
         {hasIcon && <FontAwesomeIcon icon={faSearch} />}

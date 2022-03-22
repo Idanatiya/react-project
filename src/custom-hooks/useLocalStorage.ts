@@ -1,6 +1,5 @@
 import React from "react";
 export const useLocalStorage = <T>() => {
-  //expose useful function to use local storage
   const saveToStorage = (key: string, val: T) => {
     if (typeof val !== "object") localStorage.setItem(key, JSON.stringify(val));
     else localStorage.setItem(key, JSON.stringify(val));
